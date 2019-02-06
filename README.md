@@ -21,12 +21,18 @@ Normal plot from the gomwuPlot()
 
 Custom plot gomwuPlot_reverse()
 -----------
+![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/gomwuPlot_reverse.png)
+
 
 Custom plot gomwuPlot_without_genes()
 -----------
+![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/gomwuPlot_reverse_without_genes.png)
+
 
 Custom plot gomwuPlot_reverse_without_genes()
 -----------
+![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/gomwuPlot_without_genes.png)
+
 
 Source:
 - https://github.com/z0on/GO_MWU
