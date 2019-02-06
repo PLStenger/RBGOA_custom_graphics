@@ -28,12 +28,12 @@ Custom plot gomwuPlot_reverse()
 
 Custom plot gomwuPlot_without_genes()
 -----------
-![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/blob/master/gomwuPlot_reverse_without_genes.png)
+![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/blob/master/gomwuPlot_without_genes.png)
 
 
 Custom plot gomwuPlot_reverse_without_genes()
 -----------
-![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/blob/master/gomwuPlot_without_genes.png)
+![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/blob/master/gomwuPlot_reverse_without_genes.png)
 
 
 Source:
