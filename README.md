@@ -23,7 +23,7 @@ Normal plot from the gomwuPlot()
 
 Custom plot gomwuPlot_reverse()
 -----------
-![alt tag](hhttps://github.com/PLStenger/RBGOA_custom_graphics/blob/master/gomwuPlot_reverse.png)
+![alt tag](https://github.com/PLStenger/RBGOA_custom_graphics/blob/master/gomwuPlot_reverse.png)
 
 
 Custom plot gomwuPlot_without_genes()
