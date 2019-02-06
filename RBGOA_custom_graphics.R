@@ -139,15 +139,15 @@ gomwuPlot_reverse_without_genes=function(inFile,goAnnotations,goDivision,level1=
     ypos=top-step*ii
     ii=ii+1
     if (goods$pval[i]> -log(level3,10)) { 
-      text(2800,ypos,labs[i],font=2,cex=1*txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
+      text(top,ypos,labs[i],font=2,cex=1*txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
     } else {
       if (goods$pval[i]>-log(level2,10)) { 
-        text(2800,ypos,labs[i],font=1,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
+        text(top,ypos,labs[i],font=1,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
       } else {
         #			if (goods$pval[i]>cutoff) { 
         #				text(left,ypos,labs[i],font=3,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family)
         #		} else { 
-        text(2800,ypos,labs[i],font=3,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos = 2) 
+        text(top,ypos,labs[i],font=3,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos = 2) 
         #}
       }}}
   
@@ -297,15 +297,15 @@ gomwuPlot_reverse=function(inFile,goAnnotations,goDivision,level1=0.1,level2=0.0
     ypos=top-step*ii
     ii=ii+1
     if (goods$pval[i]> -log(level3,10)) { 
-      text(2800,ypos,labs[i],font=2,cex=1*txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
+      text(top,ypos,labs[i],font=2,cex=1*txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
     } else {
       if (goods$pval[i]>-log(level2,10)) { 
-        text(2800,ypos,labs[i],font=1,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
+        text(top,ypos,labs[i],font=1,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos=2)
       } else {
         #			if (goods$pval[i]>cutoff) { 
         #				text(left,ypos,labs[i],font=3,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family)
         #		} else { 
-        text(2800,ypos,labs[i],font=3,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos = 2) 
+        text(top,ypos,labs[i],font=3,cex=0.8* txtsize,col=goods$color[i],adj=c(0,0),family=font.family, pos = 2) 
         #}
       }}}
   
