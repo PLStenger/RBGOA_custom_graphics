@@ -18,20 +18,6 @@ gomwuPlot_reverse_without_genes=function(inFile,goAnnotations,goDivision,level1=
   
   input=inFile
   in.mwu=paste("MWU",goDivision,input,sep="_")
-  i
-  
-  level1=0.1
-  level2=0.05
-  level3=0.01
-  absValue=-log(0.05,10)
-  adjusted=TRUE
-  txtsize=1
-  font.family="sans"
-  treeHeight=0.5
-  colors=NULL
-  
-  #input=inFile
-  in.mwu=paste("MWU",goDivision,input,sep="_")
   in.dissim=paste("dissim",goDivision,goAnnotations,sep="_")
   
   cutoff=-log(level1,10)
@@ -180,20 +166,6 @@ gomwuPlot_reverse=function(inFile,goAnnotations,goDivision,level1=0.1,level2=0.0
   
   input=inFile
   in.mwu=paste("MWU",goDivision,input,sep="_")
-  i
-  
-  level1=0.1
-  level2=0.05
-  level3=0.01
-  absValue=-log(0.05,10)
-  adjusted=TRUE
-  txtsize=1
-  font.family="sans"
-  treeHeight=0.5
-  colors=NULL
-  
-  #input=inFile
-  in.mwu=paste("MWU",goDivision,input,sep="_")
   in.dissim=paste("dissim",goDivision,goAnnotations,sep="_")
   
   cutoff=-log(level1,10)
@@ -337,20 +309,6 @@ gomwuPlot_without_genes=function(inFile,goAnnotations,goDivision,level1=0.1,leve
   require(ape)
   
   input=inFile
-  in.mwu=paste("MWU",goDivision,input,sep="_")
-  i
-  
-  level1=0.1
-  level2=0.05
-  level3=0.01
-  absValue=-log(0.05,10)
-  adjusted=TRUE
-  txtsize=1
-  font.family="sans"
-  treeHeight=0.5
-  colors=NULL
-  
-  #input=inFile
   in.mwu=paste("MWU",goDivision,input,sep="_")
   in.dissim=paste("dissim",goDivision,goAnnotations,sep="_")
   
