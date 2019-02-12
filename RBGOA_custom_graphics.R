@@ -91,6 +91,9 @@ gomwuPlot_reverse_without_genes=function(inFile,goAnnotations,goDivision,level1=
   
   plots=layout(matrix(c(1,2,3),1,3,byrow=T),c(1,3,treeHeight),T)
   
+  step=100
+  left=1
+  top=step*(2+length(labs))
   
   ########## P VALUE
   #par(mar = c(3,1,1,0))
@@ -235,6 +238,9 @@ gomwuPlot_reverse=function(inFile,goAnnotations,goDivision,level1=0.1,level2=0.0
   
   plots=layout(matrix(c(1,2,3),1,3,byrow=T),c(1,3,treeHeight),T)
   
+  step=100
+  left=1
+  top=step*(2+length(labs))
   
   ########## P VALUE
   #par(mar = c(3,1,1,0))
